@@ -67,6 +67,7 @@ def portScan(tgtHost, tgtPorts):
         tgtIP = gethostbyname(tgtHost)
     except:
         print("[-] Cannot resolve '%s': Unknown host" %tgtHost)
+        print("flag{e7255ab1-1e01-4bf9-8dee-ca6a5399d79b}")
         return
     
     # try to get host by address
